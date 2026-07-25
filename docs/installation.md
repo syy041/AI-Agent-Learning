@@ -15,6 +15,7 @@ OpenRouter作為LLM API Gateway，
 1. 建立 OpenRouter 帳戶
 2. 建立 API Key
 3. 將 API Key 提供給 Hermes 使用
+
 完成後，可以看到API建立頁面:
 
 ![建立API](../images/OpenRouter-API.png)
