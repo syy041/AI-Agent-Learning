@@ -67,7 +67,7 @@ OpenRouter作為LLM API Gateway，
 
 ![串接GoogleWorkspace](../images/GoogleWorkspace.png)
 
-##Installation Verification
+## Installation Verification
 
 完成以上設定後，可以確認:
 - Hermes已成功安裝
