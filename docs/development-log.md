@@ -12,6 +12,8 @@
   幫我列出最近3封未讀郵件
 > **執行成果**
 
+![Gmail功能測試](../images/Gmail.png)
+
 ### 1.2 Google Calendar:
 
 - **測試目的**：確認AI Agent是否能新增日曆行程。
@@ -23,6 +25,8 @@
   結束時間：2026/08/02 下午 6:00
 > **執行成果**
 
+![Calendar功能測試](../images/Calendar.png)
+
 ### 1.3 Google Drive:
 
 - **測試目的**：確認AI Agent是否能搜尋雲端硬碟中的檔案。
@@ -30,6 +34,8 @@
    ```text
    幫我搜尋名稱包含「期中考」的檔案
 > **執行成果**
+
+![Drive功能測試](../images/Drive.png)
 
 ### 1.4 Google Docs:
 
@@ -42,4 +48,6 @@
    2. 練習 AI Agent
    3. 完成 GitHub 文件
 > **執行成果**
+
+![Docs功能測試](../images/Docs.png)
 
