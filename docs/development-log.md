@@ -10,6 +10,7 @@
 - **Prompt**：
    ```text
   幫我列出最近3封未讀郵件
+  ```
 > **執行成果**
 
 ![Gmail功能測試](../images/Gmail.png)
@@ -23,6 +24,7 @@
   名稱：台中旅遊
   開始時間：2026/07/30 上午 9:00
   結束時間：2026/08/02 下午 6:00
+  ```
 > **執行成果**
 
 ![Calendar功能測試](../images/Calendar.png)
@@ -33,6 +35,7 @@
 - **Prompt**：
    ```text
    幫我搜尋名稱包含「期中考」的檔案
+   ```
 > **執行成果**
 
 ![Drive功能測試](../images/Drive.png)
@@ -47,6 +50,7 @@
    1. 學習 Figma
    2. 練習 AI Agent
    3. 完成 GitHub 文件
+   ```
 > **執行成果**
 
 ![Docs功能測試](../images/Docs.png)
@@ -69,6 +73,7 @@ docs/study-planner-prompt.md
 - **Prompt**：
    ```text
    請幫我安排這週的讀書計畫
+   ```
 - **執行流程**
 
  ```mermaid
@@ -85,7 +90,21 @@ flowchart TD
     I -->|Google Docs| K[建立 Google Docs 文件]
     J --> L[完成]
     K --> L
-      
+```
+
 - **執行成果**
 
+> **對話**
+  
+   ![對話](../images/dialogue.png)
+
+
+> **產生結果**
+  
+   ![結果](../images/result.png)
+   
+
+> **Calendar、Docs建立**
+  
+   ![Calendar、Doc](../images/Additional-features.png)
 
