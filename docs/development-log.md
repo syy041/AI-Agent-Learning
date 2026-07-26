@@ -51,3 +51,41 @@
 
 ![Docs功能測試](../images/Docs.png)
 
+## 2. Study Planner
+建立Study Planner Skill，使AI Agent能:
+
+- 收集本週讀書科目、作業、考試與可讀書時間
+- 整理待辦事項
+- 依截止日期安排優先順序
+- 自動產生一週讀書計畫
+- 整理本週完成與未完成事項
+- （可選）建立Google Calendar與Google Docs
+
+完整Prompt請參考:
+docs/study-planner-prompt.md
+
+- **測試目的** : 確認AI Agent能依照使用者提供的資訊，主動規劃一週讀書計畫
+
+- **Prompt**：
+   ```text
+   請幫我安排這週的讀書計畫
+- **執行流程**
+
+ ```mermaid
+flowchart TD
+    A[開始] --> B[使用者輸入：安排這週讀書計畫]
+    B --> C[詢問課程、作業、考試資訊]
+    C --> D[詢問每天可讀書時間]
+    D --> E[整理待辦事項]
+    E --> F[依截止日期排序]
+    F --> G[安排每日讀書計畫]
+    G --> H[產生本週讀書進度表]
+    H --> I{是否建立 Google Workspace?}
+    I -->|Google Calendar| J[建立 Google Calendar 行程]
+    I -->|Google Docs| K[建立 Google Docs 文件]
+    J --> L[完成]
+    K --> L
+      
+- **執行成果**
+
+
