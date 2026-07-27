@@ -104,3 +104,35 @@
   
   請協助建立。
 ```
+
+## 新增sheet功能prompt:
+> **新增sheet原因** : 因為前面產生的Docs文件檔很亂，所以我想新增sheet幫我整理
+
+## prompt:
+```text
+
+請更新 Study Planner Skill。
+
+保留目前所有功能，另外新增以下功能：
+
+1. 如果 Google Workspace 已連接，除了建立 Google Calendar 和 Google Docs 外，也支援 Google Sheets。
+
+2. 當讀書計畫完成後，詢問使用者是否建立 Google Sheets。
+
+3. 如果使用者回答「是」，請建立一份名為「本週待辦事項」的 Google 試算表。
+
+4. 試算表包含以下欄位：
+- 完成
+- 任務
+- 科目
+- 截止日期
+- 優先級
+- 備註
+
+5. 將本週所有待辦事項自動加入 Google Sheets。
+
+6. 當使用者說「我完成了 XXX」時，請更新 Google Sheets 中對應任務的完成狀態。
+
+7. 當使用者詢問「我還有哪些事情沒完成？」時，請整理 Google Sheets 中尚未完成的任務並回覆。
+
+```
