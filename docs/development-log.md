@@ -114,3 +114,59 @@ flowchart TD
 
    ![Sheet](../images/Sheet.png)
 
+## 3. Project Planner
+
+建立Project Planner S，使AI Agent能:
+
+- 收集專題相關資訊(專題名稱、時程、組員、目標)
+- 拆解專題Milestone
+- 自動安排每周工作目標
+- 產生專題甘特圖
+- 追蹤專題開發進度
+- 整理已完成、進行中、未開始及延期工作
+- (可選)建立Google Calendar、Google Docs與Google Sheets
+
+完整Prompt請參考:
+docs/project-planner-prompt.md
+
+- **測試目的**: 確認AI Agent能依照使用者提供的專題資訊，自動規劃完整的專題開發流程與進度管理
+
+- **Prompt**：
+   ```text
+   請幫我規畫專題
+   ```
+- **執行流程**
+
+```mermaid
+flowchart TD
+    A[開始] --> B[使用者輸入:幫我規劃專題]
+    B --> C[詢問專題資訊]
+    C --> D[拆解Milestone]
+    D --> E[安排每週工作目標]
+    E --> F[建立專題甘特圖]
+    F --> G[整理專題進度]
+    G --> H{是否建立Google Workspace}
+    H -->|Google Calendar| I[建立Google Calendar行程]
+    H -->|Google Docs| J[建立Google Docs專題規劃文件]
+    H -->|Google Sheets| K[建立Google Sheets專題進度表]
+    I --> L[完成]
+    J --> L
+    K --> L
+```
+- **執行成果**
+
+> **對話**
+  
+   
+
+
+> **產生結果**
+  
+   
+   
+
+> **額外功能建立**
+  
+   
+
+
