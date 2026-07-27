@@ -63,7 +63,7 @@
 - 依截止日期安排優先順序
 - 自動產生一週讀書計畫
 - 整理本週完成與未完成事項
-- （可選）建立Google Calendar與Google Docs
+- （可選）建立Google Calendar、Google Docs與Google sheet
 
 完整Prompt請參考:
 docs/study-planner-prompt.md
@@ -85,11 +85,13 @@ flowchart TD
     E --> F[依截止日期排序]
     F --> G[安排每日讀書計畫]
     G --> H[產生本週讀書進度表]
-    H --> I{是否建立 Google Workspace?}
-    I -->|Google Calendar| J[建立 Google Calendar 行程]
-    I -->|Google Docs| K[建立 Google Docs 文件]
-    J --> L[完成]
-    K --> L
+    H --> I{是否建立Google Workspace?}
+    I -->|Google Calendar| J[建立Google Calendar行程]
+    I -->|Google Docs| K[建立Google Docs文件]
+    I -->|Google Sheet| L[建立Google Sheet試算表]
+    J --> M[完成]
+    K --> M
+    L --> M
 ```
 
 - **執行成果**
@@ -107,4 +109,6 @@ flowchart TD
 > **Calendar、Docs建立**
   
    ![Calendar、Doc](../images/Additional-features.png)
+
+> **Sheet建立**
 
