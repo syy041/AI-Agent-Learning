@@ -17,9 +17,10 @@
 - [x] 串接OpenRouter
 - [x] 串接Telegram
 - [x] 串接Google Workspace
-- [x] 完成study planner skill 
+- [x] 完成study planner skill
+- [x] 在study planner skill新增Google sheet功能
+- [x] 完成Project Planner skill
 ## 下一步
-- [ ] 在study planner skill新增Google sheet功能
-- [ ] 完成Project Planner skill
+- [ ] 確認Hermes能不能產生甘特圖圖片
 
 >  **已知限制**：目前專案採用OpenRouter的免費模型，因 API 呼叫頻率與流量限制，暫時無法流暢執行Subagent的多任務協同架構，後續考慮更換付費模型進行擴充。
